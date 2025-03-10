@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# E-Commerce MERN App  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a full-stack e-commerce application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). It includes essential e-commerce features such as user authentication for secure login and registration, cart functionality to add, remove, and update items, and product management for listing, editing, and deleting products. Additionally, the application provides a "Know More" section with detailed product descriptions and a comments & ratings system, allowing users to leave reviews and rate products.
 
-## Available Scripts
+## Features  
+- User authentication (JWT-based)  
+- Product listings with categories  
+- Shopping cart and checkout system  
+- Responsive UI with Css 
 
-In the project directory, you can run:
+## Getting Started  
+Ensure you have the following installed:
 
-### `npm start`
+- **Node.js** (v14.x or later)  
+- **npm** (v6.x or later)  
+- **MongoDB** (local installation or MongoDB Atlas account)  
+- **Git**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Installation**  
+Clone the repository and install dependencies:  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/Aloktripathi19/E-commerce-Application.git
+cd ECOM
+npm install
+cd front
+npm install
+cd ../back
+npm install 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run the Application  
 
-### `npm run build`
+### Start the backend server:  
+cd back
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Start the frontend:  
+cd front
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used  
+- **Frontend:** React.js, Bootstrap  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Authentication:** JWT  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure  
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ECOM/
+├── front/           # Frontend (React.js)
+│   ├── public/      # Static assets
+│   ├── src/         # React components and pages
+│   │   ├── comp/    # Reusable components
+│   │   ├── App.js   # Main app component
+│   │   ├── index.js # React entry point
+│   │   ├── App.css  # Global styles
+│   │   ├── index.css# Main CSS file
+│   ├── package.json # Frontend dependencies
+│   ├── setupTests.js # Testing setup
+│   ├── reportWebVitals.js # Performance monitoring
+├── back/            # Backend (Node.js/Express.js)
+│   ├── models/      # MongoDB schemas
+│   ├── routes/      # API endpoints
+│   ├── package.json # Backend dependencies
+├── README.md        # Project documentation
+├── .gitignore       # Git ignore file
