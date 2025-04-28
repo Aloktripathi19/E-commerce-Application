@@ -1,4 +1,4 @@
-# E-Commerce MERN App  
+# E-Commerce MERN App 🛒
 
 This is a full-stack e-commerce application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). It includes essential e-commerce features such as user authentication for secure login and registration, cart functionality to add, remove, and update items, and product management for listing, editing, and deleting products. Additionally, the application provides a "Know More" section with detailed product descriptions and a comments & ratings system, allowing users to leave reviews and rate products.
 
